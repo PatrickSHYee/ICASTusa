@@ -1,0 +1,79 @@
+﻿/* Tags */
+p {
+    text-align: justify;
+    vertical-align: middle;
+}
+
+/* Navigation menu */
+ul li ul.dropdown {
+    display: none;
+    position: absolute;
+    background-color: blue;
+    min-width: 200px;
+    padding:0;
+}
+
+ul li:hover, ul li:hover ul.dropdown {
+    display: block;
+    background-color: blue;
+}
+
+ul li ul.dropdown li {
+    padding: 5px 10px 5px 10px;
+    text-align: left;
+    display: block;
+}
+
+ul li ul.dropdown li:hover{
+    display: block;
+    background-color: orange;
+
+}
+
+ul li ul.dropdown li a {
+    width: 100%;
+    color: #FFFFFF;
+}
+ul li ul.dropdown li a:hover {
+    text-decoration: none;
+}
+
+/* banner and footer*/
+.banner {
+    padding: 30px;
+    color: inherit;
+    border: 1px solid black;
+    float: left;
+    width: 100%;
+    height: 200px;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+footer {
+    padding: 55px;
+}
+
+/* Temporary image placeholder */
+.imgPlaceholder {
+    height: 150px;
+    width: 200px;
+    color: yellow;
+    float: left;
+    border: 1px solid black;
+    margin: 10px 10px 10px 10px;
+}
+
+.imgPlaceholderHome {
+    height: 170px;
+    width: 210px;
+    color: green;
+    float: center;
+    text-align: justify;
+    border: 1px solid black;
+}
+
+.imgPlaceholderPartner {
+    width: 155px;
+    height: 155px;
+}
