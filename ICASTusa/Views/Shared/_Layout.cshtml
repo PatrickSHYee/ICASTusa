@@ -71,18 +71,16 @@
             </div>
         </div>
     </div>
-    <div class="row banner">
-        <div class="col-md-8">
-            <h1>Community Powered Results...</h1>
-            <p>(banner background is a picture of windmills)</p>
-        </div>
-        <div class="col-md-4" style="float: left">
-            <br /><br />
-            <div class="input-group">
-                <input class="form-control" type="text" placeholder="Google Custom Search"/>
-                <span class="input-group-btn">
-                    <button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-                </span>
+    <div class="container banner">
+        <div class="row ">
+            <div class="col-md-2" style="float: right; right: 10px">
+                <br />
+                <div class="input-group">
+                    <input class="form-control" type="text" placeholder="Google Custom Search" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                    </span>
+                </div>
             </div>
         </div>
     </div>
@@ -138,6 +136,7 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/site")
     @RenderSection("scripts", required: false)
 </body>
 </html>
