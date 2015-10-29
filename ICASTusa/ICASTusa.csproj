@@ -174,7 +174,31 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\epa.jpg" />
     <Content Include="Content\Images\icast-header-logo.png" />
+    <Content Include="Content\Images\logo-cfha.jpg" />
+    <Content Include="Content\Images\logo-co-doh %281%29.jpg" />
+    <Content Include="Content\Images\logo-csu-fort-collins.jpg" />
+    <Content Include="Content\Images\logo-csu-Pueblo.jpg" />
+    <Content Include="Content\Images\logo-cu-boulder.jpg" />
+    <Content Include="Content\Images\logo-dha.jpg" />
+    <Content Include="Content\Images\logo-doe.jpg" />
+    <Content Include="Content\Images\logo-emnrd.jpg" />
+    <Content Include="Content\Images\logo-encana.jpg" />
+    <Content Include="Content\Images\logo-johns-hopkins.jpg" />
+    <Content Include="Content\Images\logo-school-of-mines.jpg" />
+    <Content Include="Content\Images\logo-thunderbird.jpg" />
+    <Content Include="Content\Images\logo-university-denver.jpg" />
+    <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-01.jpg" />
+    <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-02.jpg" />
+    <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-07.jpg" />
+    <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-08.jpg" />
+    <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-10.jpg" />
+    <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-11.jpg" />
+    <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-12.jpg" />
+    <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-14.jpg" />
+    <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-15.jpg" />
+    <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-18.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -234,6 +258,9 @@
     <Content Include="Views\About\The_ICAST_Board.cshtml" />
     <Content Include="Views\About\ResourceSmart_Board.cshtml" />
     <Content Include="Views\About\ICAST_Partners.cshtml" />
+    <Content Include="Web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
