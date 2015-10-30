@@ -162,6 +162,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProgramsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -176,9 +177,23 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\board\AANM Photo.jpg" />
+    <Content Include="Content\Images\board\Bruce-Dines.jpg" />
+    <Content Include="Content\Images\board\Jerry-Tinianow.jpg" />
+    <Content Include="Content\Images\board\John-Trefney.jpg" />
+    <Content Include="Content\Images\board\Joseph-Montoya.jpg" />
+    <Content Include="Content\Images\board\Paul-Major.jpg" />
+    <Content Include="Content\Images\board\Ravi-Malhotra.jpg" />
+    <Content Include="Content\Images\board\Rodger-Hara.jpg" />
+    <Content Include="Content\Images\board\Thom Amdur.jpg" />
+    <Content Include="Content\Images\board\Vic-Ahmed.jpg" />
     <Content Include="Content\Images\customPageBodyColor.jpg" />
+    <Content Include="Content\Images\Energy Star logo.JPG" />
     <Content Include="Content\Images\epa.jpg" />
+    <Content Include="Content\Images\GreenHome.jpg" />
     <Content Include="Content\Images\icast-header-logo.png" />
+    <Content Include="Content\Images\Kappa Towers certificate energy reduction-page-001.jpg" />
+    <Content Include="Content\Images\logo-alpine-bank.jpg" />
     <Content Include="Content\Images\logo-cfha.jpg" />
     <Content Include="Content\Images\logo-co-doh %281%29.jpg" />
     <Content Include="Content\Images\logo-csu-fort-collins.jpg" />
@@ -188,20 +203,32 @@
     <Content Include="Content\Images\logo-doe.jpg" />
     <Content Include="Content\Images\logo-emnrd.jpg" />
     <Content Include="Content\Images\logo-encana.jpg" />
+    <Content Include="Content\Images\logo-funding.jpg" />
     <Content Include="Content\Images\logo-johns-hopkins.jpg" />
     <Content Include="Content\Images\logo-school-of-mines.jpg" />
+    <Content Include="Content\Images\logo-sooper.jpg" />
     <Content Include="Content\Images\logo-thunderbird.jpg" />
     <Content Include="Content\Images\logo-university-denver.jpg" />
+    <Content Include="Content\Images\NovExeNiteSpeakerSeries.png" />
+    <Content Include="Content\Images\OctExeNiteSpeakerSeries.jpg" />
+    <Content Include="Content\Images\pic_Panet.jpg" />
+    <Content Include="Content\Images\pic_Young-girl-helping-grocery-bag.jpg" />
+    <Content Include="Content\Images\pic_Young-woman-and-grandfather-s.jpg" />
+    <Content Include="Content\Images\ProjectSunllightHome.jpg" />
     <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-01.jpg" />
     <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-02.jpg" />
     <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-07.jpg" />
     <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-08.jpg" />
+    <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-09.jpg" />
     <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-10.jpg" />
     <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-11.jpg" />
     <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-12.jpg" />
     <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-14.jpg" />
     <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-15.jpg" />
     <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-18.jpg" />
+    <Content Include="Content\Images\ResourceSmartHome.jpg" />
+    <Content Include="Content\Images\TBLHome.jpg" />
+    <Content Include="Content\Images\VolunteerNeeded.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -271,6 +298,9 @@
     <Content Include="Web.sitemap">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Views\Programs\Index.cshtml" />
+    <Content Include="Views\Programs\Green_Certifications.cshtml" />
+    <Content Include="Views\Programs\Training_and_Resources.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

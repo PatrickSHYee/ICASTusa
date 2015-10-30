@@ -4,6 +4,10 @@ p {
     vertical-align: middle;
 }
 
+h4 {
+    text-decoration: underline;
+}
+
 /* Navigation menu */
 ul li ul.dropdown {
     display: none;
@@ -13,7 +17,7 @@ ul li ul.dropdown {
     padding:0;
 }
 
-ul li:hover, ul li:hover ul.dropdown {
+ul.nav li:hover, ul li:hover ul.dropdown {
     display: block;
     background-color: blue;
 }
@@ -30,11 +34,11 @@ ul li ul.dropdown li:hover{
 
 }
 
-ul li ul.dropdown li a {
+ul li ul.dropdown a li {
     width: 100%;
     color: #FFFFFF;
 }
-ul li ul.dropdown li a:hover {
+ul li ul.dropdown a:hover {
     text-decoration: none;
 }
 
@@ -64,7 +68,6 @@ footer {
     width: 200px;
     color: yellow;
     float: left;
-    border: 1px solid black;
     margin: 10px 10px 10px 10px;
 }
 
@@ -72,7 +75,6 @@ footer {
     height: 170px;
     width: 210px;
     color: green;
-    float: center;
     text-align: justify;
     border: 1px solid black;
 }
@@ -83,6 +85,28 @@ footer {
     border: 1px solid #000000;
 }
 
+.imgPlaceholderCert {
+    height: 117px;
+    width: 114px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+.imgPlaceholderPlat {
+    height: 90px;
+    width: 114px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+.imgPlaceholderTrain {
+    width: 240px;
+    height: 145px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+/* Mobile and other devices */
 @media screen and (max-width: 400px) {
     footer {
         visibility: hidden;

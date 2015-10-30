@@ -22,22 +22,22 @@
                     <li>
                         <a href="@Url.Action("Index", "About")">About Us</a>
                         <ul class="dropdown">
-                            <li><a href="@Url.Action("Who_We_Are", "About")">Who We Are</a></li>
-                            <li><a href="@Url.Action("History_of_ICAST", "About")">Out History</a></li>
-                            <li><a href="@Url.Action("The_ICAST_Team", "About")">The ICAST Team</a></li>
-                            <li><a href="@Url.Action("The_ICAST_Board", "About")">ICAST Board of Directors</a></li>
-                            <li><a href="@Url.Action("ResourceSmart_Board", "About")">ResourceSmart Executive</a></li>
-                            <li><a href="@Url.Action("ICAST_Partners", "About")">Partners</a></li>
+                            <a href="@Url.Action("Who_We_Are", "About")"><li>Who We Are</li></a>
+                            <a href="@Url.Action("History_of_ICAST", "About")"><li>Out History</li></a>
+                            <a href="@Url.Action("The_ICAST_Team", "About")"><li>The ICAST Team</li></a>
+                            <a href="@Url.Action("The_ICAST_Board", "About")"><li>ICAST Board of Directors</li></a>
+                            <a href="@Url.Action("ResourceSmart_Board", "About")"><li>ResourceSmart Executive</li></a>
+                            <a href="@Url.Action("ICAST_Partners", "About")"><li>Partners</li></a>
                         </ul>
                     </li>
                     <li>
                         <a href="#">Programs</a>
                         <ul class="dropdown">
-                            <li><a href="#">ResourceSmart</a></li>
-                            <li><a href="#">Project Sunlight</a></li>
-                            <li><a href="#">TBL Fund</a></li>
-                            <li><a href="#">Green Certifications</a></li>
-                            <li><a href="#">Training and Resources</a></li>
+                            <a href="http://www.resourcesmart.org/" target="_blank"><li>ResourceSmart</li></a>
+                            <a href="http://www.project-sunligh.org" target="_blank"><li>Project Sunlight</li></a>
+                            <a href="http://www.tblfund.org" target="_blank"><li>TBL Fund</li></a>
+                            <a href="@Url.Action("Green_Certifications", "Programs")"><li>Green Certifications</li></a>
+                            <a href="@Url.Action("Training_and_Resources", "Programs")"><li>Training and Resources</li></a>
                         </ul>
                     </li>
                     <li>
@@ -94,7 +94,7 @@
             <a href="#">GET INVOLVED DONATE</a> |
             <a href="#">GET INVOLVED JOBS</a> |
             <a href="#">GET INVOLVED VOLUNTEER</a> |
-            <a href="#">GREEN CERTIFICATIONS</a> |
+            <a href="@Url.Action("Green_Certifications", "Programs")">GREEN CERTIFICATIONS</a> |
             <a href="@Url.Action("History_of_ICAST", "About")">HISTORY OF ICAST INTERNATIONAL</a> |
             <a href="@Url.Action("ICAST_Partners", "About")">ICAST PARTNERS</a> |
             <a href="#">PROJECT SUNLIGHT</a> |
@@ -106,7 +106,7 @@
             <a href="#">SUCCESS STORIES TESTIMONIALS</a> |
             <a href="@Url.Action("The_ICAST_Board", "About")">THE ICAST BOARD</a> |
             <a href="@Url.Action("The_ICAST_Team", "About")">THE ICAST TEAM</a> |
-            <a href="#">TRAINING AND RESOURCES</a> |
+            <a href="@Url.Action("Training_and_Resources", "Programs")">TRAINING AND RESOURCES</a> |
             <a href="@Url.Action("Who_We_Are", "About")">WHO WE ARE</a> |
             <a href="#">LOGIN</a>
             <p>&copy; @DateTime.Now.Year - ICAST All Rights Reserved <a href="">Site Map</a></p>
