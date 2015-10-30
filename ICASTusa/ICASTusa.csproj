@@ -163,6 +163,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProgramsController.cs" />
+    <Compile Include="Controllers\Success_StoriesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -187,6 +188,9 @@
     <Content Include="Content\Images\board\Rodger-Hara.jpg" />
     <Content Include="Content\Images\board\Thom Amdur.jpg" />
     <Content Include="Content\Images\board\Vic-Ahmed.jpg" />
+    <Content Include="Content\Images\CaseStudy\green-property-rehab-renovation-detf.jpg" />
+    <Content Include="Content\Images\CaseStudy\green-property-rehab-renovation-dma.jpg" />
+    <Content Include="Content\Images\CaseStudy\green-property-rehab-renovation-rha.jpg" />
     <Content Include="Content\Images\customPageBodyColor.jpg" />
     <Content Include="Content\Images\Energy Star logo.JPG" />
     <Content Include="Content\Images\epa.jpg" />
@@ -228,6 +232,8 @@
     <Content Include="Content\Images\resource-smart-green-property-rehab-partners-resources-18.jpg" />
     <Content Include="Content\Images\ResourceSmartHome.jpg" />
     <Content Include="Content\Images\TBLHome.jpg" />
+    <Content Include="Content\Images\Training\icast-resources.jpg" />
+    <Content Include="Content\Images\Training\icast-training.png" />
     <Content Include="Content\Images\VolunteerNeeded.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -239,6 +245,26 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\textFiles\Achieving High Energy Savings in Multifamily Properties.pdf" />
+    <Content Include="Content\textFiles\Financing Green Rehab for MF properties.pdf" />
+    <Content Include="Content\textFiles\Making Multifamily Properties Energy Efficient.pdf" />
+    <Content Include="Content\textFiles\Biodiesel.pptx" />
+    <Content Include="Content\textFiles\Cow Power.pdf" />
+    <Content Include="Content\textFiles\NetZero Greenhouse Design.pdf" />
+    <Content Include="Content\textFiles\Using Local Resources for Local Benefit.pptx" />
+    <Content Include="Content\textFiles\Business Planning for Rural Entrepreneurs.pdf" />
+    <Content Include="Content\textFiles\Community Economic Development.pptx" />
+    <Content Include="Content\textFiles\Helping Remove Challenges and Barriers for a Small Business.ppt" />
+    <Content Include="Content\textFiles\ICAST Glossary.pdf" />
+    <Content Include="Content\textFiles\Micro-Entrepreneur Training Manual.pdf" />
+    <Content Include="Content\textFiles\Qualities of a Successful Entrepreneur.pptx" />
+    <Content Include="Content\textFiles\Rural Business Incubators.pptx" />
+    <Content Include="Content\textFiles\Executive Night Speaker Series - Nov 2015%282%29.pdf" />
+    <Content Include="Content\textFiles\Executive Speaker Series -- October 5  2015%281%29.pdf" />
+    <Content Include="Content\textFiles\CDFI Business Plan Finance Volunteer Position.docx" />
+    <Content Include="Content\Images\CaseStudy\green-property-rehab-renovation-detf-study2.pdf" />
+    <Content Include="Content\Images\CaseStudy\green-property-rehab-renovation-dma-study.pdf" />
+    <Content Include="Content\Images\CaseStudy\green-property-rehab-renovation-rha-study.pdf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -301,6 +327,11 @@
     <Content Include="Views\Programs\Index.cshtml" />
     <Content Include="Views\Programs\Green_Certifications.cshtml" />
     <Content Include="Views\Programs\Training_and_Resources.cshtml" />
+    <Content Include="Views\Success_Stories\Index.cshtml" />
+    <Content Include="Views\Success_Stories\Program_Success.cshtml" />
+    <Content Include="Views\Success_Stories\Case_Studies.cshtml" />
+    <Content Include="Views\Success_Stories\Awards.cshtml" />
+    <Content Include="Views\Success_Stories\Testimonials.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

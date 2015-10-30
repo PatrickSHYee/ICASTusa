@@ -76,7 +76,6 @@ footer {
     width: 210px;
     color: green;
     text-align: justify;
-    border: 1px solid black;
 }
 
 .imgPlaceholderPartner {
@@ -104,6 +103,16 @@ footer {
     height: 145px;
     float: left;
     margin: 10px 10px 10px 10px;
+}
+
+.img-left {
+    margin: 10px 10px 10px 10px;
+    float: left;
+}
+
+.img-right {
+    margin: 10px 10px 10px 10px;
+    float: right;
 }
 
 /* Mobile and other devices */

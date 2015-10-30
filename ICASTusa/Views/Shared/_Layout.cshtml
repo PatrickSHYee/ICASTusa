@@ -43,10 +43,10 @@
                     <li>
                         <a href="#">Success Stories</a>
                         <ul class="dropdown">
-                            <li><a href="#">Program Success</a></li>
-                            <li><a href="#">Case Studies</a></li>
-                            <li><a href="#">Awards</a></li>
-                            <li><a href="#">Testimorials</a></li>
+                            <a href="@Url.Action("Program_Success", "Success_Stories")"><li>Program Success</li></a>
+                            <a href="@Url.Action("Case_Studies", "Success_Stories")"><li>Case Studies</li></a>
+                            <a href="@Url.Action("Awards", "Success_Stories")"><li>Awards</li></a>
+                            <a href="@Url.Action("Testimonials", "Success_Stories")"><li>Testimorials</li></a>
                         </ul>
                     </li>
                     <li>
@@ -73,7 +73,7 @@
     </div>
     <div class="container banner">
         <div class="row ">
-            <div class="col-md-2" style="float: right; right: 10px">
+            <div class="col-md-2" style="float: right; right: 300px">
                 <br />
                 <div class="input-group">
                     <input class="form-control" type="text" placeholder="Google Custom Search" />
@@ -100,10 +100,10 @@
             <a href="#">PROJECT SUNLIGHT</a> |
             <a href="#">PROMOTIONAL FORM</a> |
             <a href="@Url.Action("ResourceSmart_Board", "About")">RESOURCE SMART BOARD</a> |
-            <a href="#">SUCCESS STORIES AWARDS</a> |
-            <a href="#">SUCCESS STORIES CASE STUDIES</a> |
+            <a href="@Url.Action("Awards", "Success_Stories")">SUCCESS STORIES AWARDS</a> |
+            <a href="@Url.Action("Case_Studies", "Success_Stories")">SUCCESS STORIES CASE STUDIES</a> |
             <a href="#">SUCCESS STORIES PAST PROJECTS</a> |
-            <a href="#">SUCCESS STORIES TESTIMONIALS</a> |
+            <a href="@Url.Action("Testimonials", "Success_Stories")">SUCCESS STORIES TESTIMONIALS</a> |
             <a href="@Url.Action("The_ICAST_Board", "About")">THE ICAST BOARD</a> |
             <a href="@Url.Action("The_ICAST_Team", "About")">THE ICAST TEAM</a> |
             <a href="@Url.Action("Training_and_Resources", "Programs")">TRAINING AND RESOURCES</a> |
