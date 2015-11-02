@@ -160,6 +160,8 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BlogController.cs" />
+    <Compile Include="Controllers\Get_InvolvedController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProgramsController.cs" />
@@ -192,6 +194,7 @@
     <Content Include="Content\Images\CaseStudy\green-property-rehab-renovation-dma.jpg" />
     <Content Include="Content\Images\CaseStudy\green-property-rehab-renovation-rha.jpg" />
     <Content Include="Content\Images\customPageBodyColor.jpg" />
+    <Content Include="Content\Images\donation%281%29.jpg" />
     <Content Include="Content\Images\Energy Star logo.JPG" />
     <Content Include="Content\Images\epa.jpg" />
     <Content Include="Content\Images\GreenHome.jpg" />
@@ -276,6 +279,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\moment.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\site.js" />
@@ -332,6 +336,12 @@
     <Content Include="Views\Success_Stories\Case_Studies.cshtml" />
     <Content Include="Views\Success_Stories\Awards.cshtml" />
     <Content Include="Views\Success_Stories\Testimonials.cshtml" />
+    <Content Include="Views\Blog\ICAST_News.cshtml" />
+    <Content Include="Views\Blog\ICAST_Events.cshtml" />
+    <Content Include="Views\Get_Involved\Jobs.cshtml" />
+    <Content Include="Views\Get_Involved\Volunteer.cshtml" />
+    <Content Include="Views\Get_Involved\Donate.cshtml" />
+    <Content Include="Views\Get_Involved\Connect_with_ICAST.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

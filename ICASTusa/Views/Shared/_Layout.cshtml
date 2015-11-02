@@ -23,7 +23,7 @@
                         <a href="@Url.Action("Index", "About")">About Us</a>
                         <ul class="dropdown">
                             <a href="@Url.Action("Who_We_Are", "About")"><li>Who We Are</li></a>
-                            <a href="@Url.Action("History_of_ICAST", "About")"><li>Out History</li></a>
+                            <a href="@Url.Action("History_of_ICAST", "About")"><li>Our History</li></a>
                             <a href="@Url.Action("The_ICAST_Team", "About")"><li>The ICAST Team</li></a>
                             <a href="@Url.Action("The_ICAST_Board", "About")"><li>ICAST Board of Directors</li></a>
                             <a href="@Url.Action("ResourceSmart_Board", "About")"><li>ResourceSmart Executive</li></a>
@@ -52,17 +52,17 @@
                     <li>
                         <a href="#">The Latest</a>
                         <ul class="dropdown">
-                            <li><a href="#">ICAST News</a></li>
-                            <li><a href="#">ICAST Events</a></li>
+                            <a href="@Url.Action("ICAST_NEWS", "Blog")"><li>ICAST News</li></a>
+                            <li><a href="@Url.Action("ICAST_Events", "BLog")">ICAST Events</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="#">Get Involved</a>
                         <ul class="dropdown">
-                            <li><a href="#">Jobs</a></li>
-                            <li><a href="#">Volunteer</a></li>
-                            <li><a href="#">Donate</a></li>
-                            <li><a href="#">Connect with ICAST</a></li>
+                            <a href="@Url.Action("Jobs", "Get_Involved")"><li>Jobs</li></a>
+                            <a href="@Url.Action("Volunteer", "Get_Involved")"><li>Volunteer</li></a>
+                            <a href="@Url.Action("Donate", "Get_Involved")"><li>Donate</li></a>
+                            <a href="@Url.Action("Connect_with_ICAST", "Get_Involved")"><li>Connect with ICAST</li></a>
                         </ul>
                     </li>
                     <li><a href="#">Contact</a></li>
@@ -88,12 +88,12 @@
         @RenderBody()
         <footer class="text-center">
             <a href="@Url.Action("Index", "Home")">HOME</a> |
-            <a href="#">CALENDAR</a> |
-            <a href="#">CONNECT WITH ICAST</a> |
+            <a href="@Url.Action("ICAST_Events", "Blog")">CALENDAR</a> |
+            <a href="@Url.Action("Connect_with_ICAST", "Get_Involved")">CONNECT WITH ICAST</a> |
             <a href="#">CONTACT ICAST INTERNATIONAL</a> |
-            <a href="#">GET INVOLVED DONATE</a> |
-            <a href="#">GET INVOLVED JOBS</a> |
-            <a href="#">GET INVOLVED VOLUNTEER</a> |
+            <a href="@Url.Action("Donate", "Get_Involved")">GET INVOLVED DONATE</a> |
+            <a href="@Url.Action("Jobs", "Get_Involved")">GET INVOLVED JOBS</a> |
+            <a href="@Url.Action("Volunteer", "Get_Involved")">GET INVOLVED VOLUNTEER</a> |
             <a href="@Url.Action("Green_Certifications", "Programs")">GREEN CERTIFICATIONS</a> |
             <a href="@Url.Action("History_of_ICAST", "About")">HISTORY OF ICAST INTERNATIONAL</a> |
             <a href="@Url.Action("ICAST_Partners", "About")">ICAST PARTNERS</a> |

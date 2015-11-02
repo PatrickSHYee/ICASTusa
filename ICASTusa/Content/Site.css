@@ -115,6 +115,33 @@ footer {
     float: right;
 }
 
+/* Blog entries*/
+.input-group {
+    margin: 20px 0;
+}
+.jumbotron {
+    padding-top: 5px;
+    background-color: #E5E5E5;
+}
+
+.minTron {
+    background-color: #eeeeee;
+    padding: 10px 10px 10px 10px;
+    min-height: 150px;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.white {
+    color: white;
+}
+
 /* Mobile and other devices */
 @media screen and (max-width: 400px) {
     footer {
